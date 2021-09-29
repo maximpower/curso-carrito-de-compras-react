@@ -3,7 +3,6 @@ import { Component } from 'react';
 
 const styles= {
     layout:{
-        backgroundColor: '#fff',
         color: '#0A283E',
         alignItems: 'center',
         display: 'flex',
@@ -19,7 +18,6 @@ class Layout extends Component {
             <div style={styles.layout}>
                 <div style={styles.container}>
                     {this.props.children}
-                lala
                 </div>
             </div>
         )
