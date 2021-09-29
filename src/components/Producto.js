@@ -16,7 +16,6 @@ const styles={
 class Producto extends Component {
     render(){
         const {producto, agregarAlCarro} = this.props;
-        console.log(this.props);
         return(
             <div style={styles.producto}>
                 <img style={styles.img} alt={producto.name} src={producto.img} />
